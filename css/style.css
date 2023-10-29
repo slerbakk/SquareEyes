@@ -56,10 +56,6 @@ header {
     margin-top: 18px;
   }
 
-.footer {
-    padding-left: 100px;
-}
-
 button {
     width: 90px;
     height: 44px;
@@ -91,10 +87,16 @@ button {
 
 .footer {
     padding-top: 70px;
+    font-size: 12px;
 }
 
-.icon {
-    align-items: end;
+.slidermovies {
+    display: flex;
+    float:left;
+    margin-top: 23px;
+    margin-left: 112px;
+    height: 312px;
+    width: 200px;
 }
 
 @media screen and (max-width: 1100px) {
