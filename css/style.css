@@ -10,10 +10,26 @@ a:hover {
     color: #FE3900;
   }
 
+body {
+    margin: 0;
+}
+
 li {
     display: inline-block;
     list-style: none;
     text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 80px;
+    width: auto;
+    margin-left: 5px;
 }
 
 .searchform {
@@ -27,6 +43,7 @@ li {
     height: 40px;
     width: 420px;
     border-radius: 12px 0px 0px 12px;
+    margin-top: 18px;
   }
 
 button {
@@ -37,17 +54,14 @@ button {
     border: solid #FE3900;
     outline-color: #FE3900;
     border-radius: 0px 12px 12px 0px;
+    margin-top: 18px;
   }
-
-.header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
 
 #menu {
     font-family: lato;
     font-size: 18px;
+    margin-right: 5px;
+    margin-top: 21px;
 }
 
 #signin {
@@ -55,8 +69,15 @@ button {
     text-decoration: underline;
 }
 
+#moviebg {
+    background-color: #141414;
+    height: 360px;
+    width: auto;
+}
 
-@media screen and (max-width: 600px) {
+
+
+@media screen and (max-width: 1100px) {
     
     body {
         margin: 0;
@@ -67,24 +88,39 @@ button {
         padding-left: 10px;
         padding-right: 10px;
         justify-content: space-between;
-
     }
 
-    li {
-
-    }
-
-    .header {
+    header {
         flex-direction: column;
         margin: auto;
     }
 
-    #search {
+    .search {
+        margin: auto;
+    }
+    
+    #logo {
+        height: 80px;
+        width: auto;
+        margin: auto;
+    }
+
+    #moviebg {
+        background-color: #141414;
+        height: 217px;
+        width: auto;
+    }
+
+    #menu {
+        margin-top: 0px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    .search {
         display: none;
     }
 
-    #logo {
-
-    }
-    
 }
