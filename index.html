@@ -9,10 +9,10 @@
 </head>
 <body>
     <header>
-        <img src="img/logo.png" a href="#" alt="SquareEyes Logo" id="logo"/>
+        <img src="img/logo.png" alt="SquareEyes Logo" id="logo"/>
             <div class="search">
             <input placeholder="Search" class="searchform" type="text">
-            <button>
+            <button class="searchbutton">
                 <a href="#"><img src="img/searchglass.png" alt="Search Icon"/></a>
             </button>
         </div>
@@ -25,17 +25,24 @@
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="register.html">Register</a></li>
                     <li><a href="sign.html" id="signin">Sign in</a></li>
+                    <img src="img/cart.png">
                 </ul>
             </nav>
         </div>
     </header>
-    <div id="moviebg">
+    <section class="moviebg">
+        <div id="leftslider">
+            <img src="img/slideleft.png" alt="Slide Left" class="slideLeft" />
+        </div>
         <img src="movies/hobbs.jpeg" class="slidermovies" alt="Hobbs & Shaw"/>
         <img src="movies/godzilla.jpeg" class="slidermovies" alt="Godzilla"/>
         <img src="movies/batman.jpeg" class="slidermovies" alt="Batman"/>
         <img src="movies/scream.jpeg" class="slidermovies" alt="Scream"/>
         <img src="movies/adams.jpeg" class="slidermovies" alt="Adams Family"/>
-    </div>
+        <div id="rightslider">
+                <img src="img/slideright.png" alt="Slide Right" class="slideRight" />
+        </div>
+    </section>
         <section class="content">
             <h1>Welcome to Square Eyes</h1>
 
@@ -49,7 +56,7 @@
         </section>
 </body>
 <footer>
-    <section class="footer">2023 SquareEyes. All rights reserved.
+    <section class="socials">
         <a href="#">
             <img src="img/twitter.png" alt="Twitter" class="icon" />
         </a>
@@ -59,6 +66,8 @@
         <a href="#">
             <img src="img/facebook.png" alt="Facebook" class="icon" />
         </a>
+        </section>
+    <section class="footer">2023 SquareEyes. All rights reserved.
     </section>
 </footer>
 </html>
