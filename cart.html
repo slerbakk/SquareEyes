@@ -30,23 +30,35 @@
             </nav>
         </div>
     </header>
-    <div id="moviebg">
-    </div>
-        <section class="content">
-            <h1>Register</h1>
+    <section class="moviebgsmall">
+        <class id="downslide">
+            <img src="img/slidedown.png" alt="Slide Down" class="downslide"/>
+        </class>
+    </section>
+        <section class="cart">
+            <class id="mycart">
+                <h1>My Cart</h1>
 
-            <p> Sign up for unlimited access to the best streaming content available. Watch all your favorite movies, 
-                TV shows, and exclusive originals anytime, anywhere. Start your free trial and join our community of entertainment lovers today!                
-            </p>
-        </section>
-        <section>
-            <input placeholder="Name" class="rname" type="text">
-            <br><p><input placeholder="Email" class="remail" type="text"></p>
-            <p><input placeholder="Password" class="rpassword" type="text"></p>
-            <p><input placeholder="Retype Password" class="rpassword" type="text"></p>
-            <p><button class="submit">
-                <a href="#" a style="color: #FFFFFF">Submit</a>
-            </button>
+                <img src="movies/superbad-movie-poster.jpg" alt="Superbad" class="mycart">
+                <div id="cartlink"><a href="superbad.html">Superbad <br>$20</a></div>
+                <img src="movies/batman.jpeg" alt="Batman" class="mycart">
+                <div id="cartlink"><a href="batman.html">Batman <br>$25</a></div>
+            </class>
+            <div id="payment">
+                <h1>Payment Method</h1>
+                <img src="img/mastercard.png" alt="Mastercard">
+                <img src="img/visa.png" alt="Visa">
+                <img src="img/paypal.png" alt="Paypal">
+                <p><input placeholder="Name on card" class="cardname" type="text">
+                   <br><input placeholder="Card Number" class="cardnumber" type="text">
+                   <br><input placeholder="Expiration" class="expiration" type="text">
+                   <input placeholder="CVV" class="cvv" type="text">
+                </p>
+                Total: $45 
+                <button class="purchase">
+                    <a href="success.html" a style="color: #FFFFFF">Purchase</a>
+                </button>
+            </div>
         </section>
 </body>
 <footer>
