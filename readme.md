@@ -23,5 +23,5 @@ This project focuses on the design and layout of a webpage for a fictional strea
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:slerbakk/squareeyes-streaming.git
+git clone https://github.com/slerbakk/SquareEyes.git
 ```
