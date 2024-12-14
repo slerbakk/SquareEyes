@@ -25,3 +25,11 @@ This project focuses on the design and layout of a webpage for a fictional strea
 ```bash
 git clone https://github.com/slerbakk/SquareEyes.git
 ```
+
+## Contributing
+
+If you want to contribute, you can do a pull request and I'll review it as soon as posible.
+
+## Contact
+
+you can get in touch with me at slerbakk@outlook.com
