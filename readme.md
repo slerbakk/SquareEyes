@@ -1,6 +1,6 @@
 # SquareEyes Streaming Service Webpage
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![image](https://github.com/slerbakk/SquareEyes/blob/main/img/square.png)
 
 This project is a static webpage for a streaming service called SquareEyes. The webpage is built using HTML and CSS and replicates the design of a streaming platform homepage.
 
